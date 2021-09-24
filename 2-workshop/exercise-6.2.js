@@ -5,6 +5,11 @@ function exercise6_2() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let number = 5;
+  while (number <= 45){
+    console.log(number);
+    number += 1;
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

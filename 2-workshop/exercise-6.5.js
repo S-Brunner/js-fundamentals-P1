@@ -16,6 +16,16 @@ function exercise6_5() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let number = 0;
+while (number <= 10){
+  if (number % 2 === 0){
+    console.log(number,"even.");
+    number += 1;
+  } else{
+    console.log(number,"odd");
+    number += 1;
+  }
+}
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

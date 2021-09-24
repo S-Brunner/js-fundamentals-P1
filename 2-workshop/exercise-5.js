@@ -7,11 +7,10 @@ function exercise5() {
   //
   // Edit only the code between the lines (below)
   // -----------------------------------------------------------------
-  for (let number = 0; number < 25; number++) {
-    if (number % 2) {
-      console.log(number);
-    }
+  let number = 1;
+  while (number <= 25){
     console.log(number);
+    number += 2;
   }
   // -----------------------------------------------------------------
   // Edit only the code between the lines (above)
