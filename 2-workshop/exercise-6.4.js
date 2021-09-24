@@ -10,6 +10,7 @@ function exercise6_4() {
   while (number >= 0){
     console.log(number);
     number -=2;
+    
   }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
