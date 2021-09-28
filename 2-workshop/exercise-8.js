@@ -7,8 +7,13 @@ function exercise8() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
-
-  console.log(`The sum is ${sum}`);
+  let count = 0;
+  while(count !== 5000){
+    let total = count * 4;
+    console.log(total);
+    count += 1;
+  }
+  
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
@@ -18,7 +23,7 @@ function exercise8() {
   //
   //
 }
-
+exercise8();
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-8
 

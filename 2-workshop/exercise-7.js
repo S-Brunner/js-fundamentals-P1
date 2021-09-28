@@ -23,6 +23,19 @@ function exercise7() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let time = 0;
+while (time <= 23){
+  if(time <= 5 || time >21){
+    console.log("It's ",time,"h. Time for sleep!");
+    time += 1;
+  }else if (time === 12){
+    console.log("It's ",time,"h. Time for lunch!");
+    time += 1;
+  }else{
+    console.log("Its's ",time,"h. Time to train!");
+    time += 1;
+  }
+}
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

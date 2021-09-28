@@ -28,6 +28,23 @@ function exercise9() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let count = 1;
+while (count <= 100) {
+  if (count % 3 === 0 && count % 5 === 0) {
+    console.log("FizzBuzz");
+    count += 1;
+  } if (count % 5 === 0) {
+    console.log("Buzz");
+    count += 1;
+    if (count % 3 === 0) {
+    console.log("Fizz");
+    count += 1;
+    } 
+  } else {
+    console.log(count);
+    count += 1;
+  }
+}
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
@@ -40,5 +57,5 @@ function exercise9() {
 
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-9
-
+exercise9();
 module.exports = exercise9;
