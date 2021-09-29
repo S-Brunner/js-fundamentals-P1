@@ -19,10 +19,10 @@ function exercise6_5() {
   let number = 0;
 while (number <= 10){
   if (number % 2 === 0){
-    console.log(number,"even.");
+    console.log(`${number} is even.`);
     number += 1;
   } else{
-    console.log(number,"odd");
+    console.log(`${number} is odd`);
     number += 1;
   }
 }
@@ -35,7 +35,7 @@ while (number <= 10){
   //
   //
 }
-
+exercise6_5();
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-6.5
 
