@@ -26,13 +26,13 @@ function exercise7() {
   let time = 0;
 while (time <= 23){
   if(time <= 5 || time >21){
-    console.log("It's ",time,"h. Time for sleep!");
+    console.log("It's " + time +"h. Time to sleep!");
     time += 1;
-  }else if (time === 12){
-    console.log("It's ",time,"h. Time for lunch!");
+  }else if (time === 6 || time === 12 || time === 18){
+    console.log("It's " + time + "h. Time to eat!");
     time += 1;
   }else{
-    console.log("Its's ",time,"h. Time to train!");
+    console.log("It's " + time + "h. Time to train!");
     time += 1;
   }
 }

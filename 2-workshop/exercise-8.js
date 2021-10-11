@@ -8,9 +8,10 @@ function exercise8() {
   // Write code between the lines (below)
   // -----------------------------------------------------------------
   let count = 0;
-  while(count !== 5000){
-    let total = count * 4;
-    console.log(total);
+  let total = 0;
+  while(count <= 5000){
+    total += count * 4;
+    console.log("The sum is " + total);
     count += 1;
   }
   

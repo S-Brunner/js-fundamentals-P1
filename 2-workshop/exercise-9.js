@@ -29,18 +29,19 @@ function exercise9() {
   // Write code between the lines (below)
   // -----------------------------------------------------------------
   let count = 1;
-while (count <= 100) {
+while (count !== 101) {
   if (count % 3 === 0 && count % 5 === 0) {
     console.log("FizzBuzz");
     count += 1;
   } if (count % 5 === 0) {
     console.log("Buzz");
     count += 1;
-    if (count % 3 === 0) {
+  }
+    else if(count % 3 === 0) {
     console.log("Fizz");
     count += 1;
     } 
-  } else {
+  else {
     console.log(count);
     count += 1;
   }
